@@ -1,0 +1,50 @@
+body {
+   background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v936-background-adj-08.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=eb5816bfb1a2e622f0fe22c39376e217);
+
+}
+table, td, th {  
+  border: 1pt solid black;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 90%;
+  
+}
+#container {
+  border-style: solid;
+  border: 1% black;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 30px;
+  padding: 20px;
+ }
+ 
+ .iterate {
+   margin-top: 30px ;
+   margin-bottom: 30px;
+ }
+#display {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  text-align: center;
+}
+#display td, #display th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#display tr:hover {
+  background-color:lightblue;
+}
+
+#display th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: grey;
+  color: white;
+}
+#entry {
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
