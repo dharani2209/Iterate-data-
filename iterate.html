@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="iterate.css">
+    <script type="text/javascript" src="iterate.js"></script>
+    
+   </head>
+<body onload="Adddata()">
+ <form>   
+ <div id="container">
+     <div class="iterate">NAME <input type="text" id="name" placeholder="enter a name" required/></div>
+     <div class="iterate">STUDENTID <input type="number" id="sid" placeholder="enter a id" required/></div>
+     <div class="iterate">DEGREE 
+         <label for="degree"></label>
+         <select name="degree" id="degree" required>
+           <option value="BE">BE</option>
+           <option value="BTECH">BTECH</option>
+           <option value="ME">ME</option>
+           <option value="MBA">MBA</option>
+           <option value="">OTHER</option>
+         </select>
+     </div>
+<button id="entry" onclick="addData();">SUBMIT</button>
+     <button id="en" onclick="deleteRow('display');">DELETE</button>
+ </div> 
+</form>  
+<table id="display">
+    <tr>
+        <th></th>
+        <th>NAME</th>
+        <th>STUDENTID</th>
+        <th>DEGREE</th>
+    </tr>
+</table>
+</body>
+</html>
